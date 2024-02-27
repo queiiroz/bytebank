@@ -8,6 +8,8 @@ function imprimeCotacao(nome, valor) {
     listaItem.innerHTML = `${multiplicador} ${nome}: R$ ${(
       valor * multiplicador
     ).toFixed(2)}`;
-    lista.appendChild(listaItem)
+    lista.appendChild(listaItem);
   }
 }
+
+export default imprimeCotacao;
