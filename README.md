@@ -1,9 +1,9 @@
-<p align="center"> <img src="https://imgur.com/1mc1qX7.png" alt="JavaScript: trabalhando com threads para requisições simultâneas"> </p>
+# Cotação em tempo real
+
+<p align="center"> <img src="./imagens/imagem-projeto.png"</p>
 
 <hr>
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Bytebank: o seu banco digital!</p>
 
 ## Assuntos abordados durante o curso
 * Fetch API
@@ -20,3 +20,14 @@
 * HTML
 * CSS
 * JavaScript
+
+<table>
+  <tr>
+    <td>
+     <img src="./imagens/avatar-gleidsonqueiroz.png" width="100px"/>
+    </td>
+    <td>
+      Feito por Gleidson Queiroz.</a> 🙋🏼‍♂️
+    </td>
+  </tr>
+</table>
