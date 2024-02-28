@@ -1,5 +1,6 @@
 .dadosDolar,
-.dadosIene {
+.dadosIene,
+.dadosEuro {
     margin: 3em auto;
     padding: 2em;
     display: flex;
@@ -35,6 +36,10 @@
 
 .grafico__ilustracao-euro {
     background-image: url('../imagens/euro-svgrepo-com.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    
 }
 
 
