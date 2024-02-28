@@ -1,6 +1,9 @@
 async function conectaAPI() {
   const conecta = await fetch(
-    "https://economia.awesomeapi.com.br/json/last/USD-BRL"
+    "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+    {
+      cache: "force-cache",
+    }
   );
   const conectaTraduzido = await conecta.json();
   postMessage(conectaTraduzido.USDBRL);
@@ -8,5 +11,5 @@ async function conectaAPI() {
 
 addEventListener("message", () => {
   conectaAPI();
-  setInterval(() => conectaAPI(), 5000);
+  setInterval(() => conectaAPI(), 60000);
 });

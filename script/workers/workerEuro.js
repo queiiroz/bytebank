@@ -1,6 +1,8 @@
 async function conectaAPI() {
   const conecta = await fetch(
-    "https://economia.awesomeapi.com.br/json/last/EUR-BRL"
+    "https://economia.awesomeapi.com.br/json/last/EUR-BRL",{
+      cache: "force-cache"
+      }
   );
   const conectaTraduzido = await conecta.json();
   postMessage(conectaTraduzido.EURBRL);
@@ -8,5 +10,5 @@ async function conectaAPI() {
 
 addEventListener("message", () => {
   conectaAPI();
-  setInterval(() => conectaAPI(), 5000);
+  setInterval(() => conectaAPI(), 60000);
 });
