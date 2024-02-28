@@ -11,6 +11,8 @@ const graficoParaDolar = new Chart(graficoDolar, {
         label: "Dólar",
         data: [],
         borderWidth: 1,
+        backgroundColor: "#00DEA3",
+        pointRadius: "5"
       },
     ],
   },
@@ -55,6 +57,8 @@ const graficoParaIene = new Chart(graficoIene, {
         label: "Iene",
         data: [],
         borderWidth: 1,
+        backgroundColor: "#783EFD",
+        pointRadius: "5",
       },
     ],
   },
@@ -82,7 +86,9 @@ const graficoParaEuro = new Chart (graficoEuro,{
         label: "Euro",
         data: [],
         borderWidth: 1,
-
+        backgroundColor: "yellow",
+        fill: "true",
+        pointRadius: "5"
       },
     ],
   },
