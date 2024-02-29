@@ -87,7 +87,6 @@ const graficoParaEuro = new Chart (graficoEuro,{
         data: [],
         borderWidth: 1,
         backgroundColor: "yellow",
-        fill: "true",
         pointRadius: "5"
       },
     ],
